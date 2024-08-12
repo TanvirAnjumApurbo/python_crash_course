@@ -1,0 +1,38 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment directories
+.venv/
+env/
+venv/
+
+# Ignore VS Code settings
+.vscode/
+.idea/
+
+# Ignore Pytest cache
+.pytest_cache/
+
+# Ignore bytecode files
+*.pyo
+*.pyd
+*.pdb
+*.swp
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore temporary files
+*.tmp
+*.log
+*.bak
+
+# Ignore requirements lock files (optional, if not used)
+Pipfile.lock
+poetry.lock
+
+# Ignore specific files in the src directory
+src/__init__.py
+src/main.py

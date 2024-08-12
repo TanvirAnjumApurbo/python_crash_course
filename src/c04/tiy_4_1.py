@@ -1,0 +1,10 @@
+pizzas = ["pepperoni", "cheese", "sausage", "mushroom", "onion", "green pepper", "black olive", "green olive", "anchovy", "ham", "bacon", "pineapple", "tomato", "spinach", "artichoke", "broccoli", "eggplant", "zucchini", "asparagus", "chicken", "steak", "shrimp", "lobster", "crab", "clam", "mussel", "scallop", "calamari", "octopus", "squid", "pepper", "garlic", "onion", "basil", "oregano", "parsley", "cilantro", "rosemary", "thyme", "sage", "marjoram", "tarragon", "mint", "dill", "chive", "cumin", "coriander", "cinnamon", "nutmeg", "ginger", "cloves", "allspice", "cardamom", "cayenne", "paprika", "turmeric", "mustard", "wasabi", "horseradish", "soy sauce", "teriyaki sauce", "barbecue sauce", "ranch dressing", "blue cheese dressing", "thousand island dressing", "honey mustard dressing", "caesar dressing", "italian dressing", "french dressing", "russian dressing", "vinaigrette",
+          "mayonnaise", "ketchup", "mustard", "relish", "sauerkraut", "coleslaw", "pickles", "olives", "jalapenos", "banana peppers", "bell peppers", "mushrooms", "onions", "tomatoes", "lettuce", "spinach", "cucumbers", "carrots", "celery", "radishes", "broccoli", "cauliflower", "zucchini", "squash", "asparagus", "green beans", "peas", "corn", "potatoes", "sweet potatoes", "yams", "turnips", "rutabagas", "beets", "parsnips", "carrots", "onions", "garlic", "shallots", "leeks", "scallions", "chives", "ginger", "horseradish", "wasabi", "jalapenos", "habaneros", "serranos", "thai chilis", "cayenne", "bell peppers", "poblano peppers", "anaheim peppers", "jalapeno peppers", "habanero peppers", "serrano peppers", "thai chilis", "cayenne peppers", "cumin", "coriander", "cinnamon", "nutmeg", "ginger", "cloves", "allspice", "cardamom", "cayenne", "paprika", "turmeric", "mustard", "wasabi", "horseradish"]
+
+for i, pizza in enumerate(start=1, iterable=pizzas):
+    print(f"{i}. {pizza}")
+
+for pizza in pizzas:
+    print(f"I like {pizza} pizza.")
+
+print("I find BBQ chicken pizza the best. It's my favorite! What's your favorite pizza?")
